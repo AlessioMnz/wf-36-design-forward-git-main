@@ -1,15 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   box-sizing: border-box
 }
 
 body {
   margin: 0;
-  font-family: system-ui;
+  font-family: "Montserrat", sans-serif;
   background: #f5f5f5;
   color: #222
-}
-
-.container {
-  width: min(1100px, 92%);
-  margin: auto
 }

@@ -9,11 +9,6 @@ body {
   color: #222;
 }
 
-.container {
-  width: min(1100px, 92%);
-  margin: auto;
-}
-
 .header {
   background: #5b5bd6;
   color: white;
@@ -31,6 +26,10 @@ a {
 }
 
 /* TODO _hero.scss */
+.hero {
+  background: black;
+}
+
 /* TODO _cards.scss */
 /* TODO _program.scss */
 /* TODO _footer.scss *//*# sourceMappingURL=main.css.map */
