@@ -1,15 +1,15 @@
 .header {
   background-color: rgb(255, 172, 172);
   color: white;
-  padding: $spacing
+  padding: 1rem;
 }
 
 nav {
   display: flex;
-  gap: 1rem
+  gap: 1rem;
 }
 
 a {
   color: white;
-  text-decoration: none
+  text-decoration: none;
 }

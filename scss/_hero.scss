@@ -1,5 +1,35 @@
 /* TODO _hero.scss */
-
 .hero {
-  background: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn-discover {
+  color: white;
+  padding: 0.8rem 1rem;
+  border: 3px solid rgb(232, 47, 47);
+  background: rgb(232, 47, 47);
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.btn-menu {
+  color: black;
+  padding: 0.8rem 1rem;
+  border: 3px solid black;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+img {
+  border-radius: 2rem;
+  width: 40%;
 }
