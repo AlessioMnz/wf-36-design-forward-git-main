@@ -1,15 +1,49 @@
 .header {
-  background-color: rgb(255, 172, 172);
-  color: white;
+  background: rgb(255, 255, 255);
+  color: black;
   padding: 1rem;
+  border-block-end: 1px solid black;
 }
 
 nav {
   display: flex;
-  gap: 1rem;
+  gap: 1rem
+  
 }
 
 a {
+  color: rgb(255, 63, 63);
+  text-decoration: none
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  
+}
+
+.logo img {
+  height: 50px; /* tu ajustes selon la taille voulue */
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a:hover {
+  color: rgb(255, 131, 131);
+}
+
+.btn-nav {
   color: white;
-  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border: 3px solid rgb(232, 47, 47);
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: rgb(232, 47, 47);
 }
