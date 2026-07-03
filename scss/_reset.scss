@@ -1,1 +1,15 @@
-*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#f5f5f5;color:#222}.container{width:min(1100px,92%);margin:auto}
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #f5f5f5;
+  color: #222
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: auto
+}
